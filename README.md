@@ -4,6 +4,10 @@ This hand-coded plugin creates a 'portfolio' post type whereby portfolios can be
 
 This plugin is currently used on the the [freshwebstudio.com/portfolio](https://freshwebstudio.com/portfolio/) website, if you care to see it in action.
 
+Example Screenshots:
+
+![freshwebstudio-portfolio-composite](https://user-images.githubusercontent.com/3323104/40273628-a8b8ecf0-5b80-11e8-9f73-4b5f0cfae45a.png)
+
 # Plugin Ownership
 
 If you're reading this file, it probably means that you are either responsible for the development of this plugin, inquisitive, or you have a lot of time on your hands. Let's assume that you're a web developer and are now responsible for future develpment or content changes in this plugin. Hopefully, we at [FreshWeb Studio](https://freshwebstudio.com), the developers of this plugin, have created this plugin sufficiently to make your job easier.
