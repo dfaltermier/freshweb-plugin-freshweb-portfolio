@@ -33,7 +33,7 @@ Read this section carefully before modifying the plugin code. Here's an outline:
 
 ## 1. Git Version Control System
 
-[Git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. The development of this plugin uses Git for this purpose. More specifically, we use [Beanstalk](https://beanstalkapp.com) as our public Git repository.
+[Git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics) is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. The development of this plugin uses Git for this purpose. More specifically, we use [Beanstalk](https://beanstalkapp.com) as our private Git repository.
 
 If you find this theme on the GitHub.com repository, then the code is provided only as a public coding example for others to examine. The original source is still actively maintained in our private Beanstalk repository.
 
