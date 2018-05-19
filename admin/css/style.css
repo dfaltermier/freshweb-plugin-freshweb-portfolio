@@ -1,0 +1,119 @@
+/**
+ * CSS for our admin pages.
+ */
+
+/*
+ * Styles for our meta box fields
+ */
+/* Header image */
+.fw-image-upload__header-image-container img {
+    max-width: 100%;
+}
+
+/* Lead image */
+.fw-image-upload__lead-image-container img {
+    max-width: 100%;
+    width: 300px;
+}
+
+/* Client image */
+.fw-image-upload__client-image-container img {
+    max-width: 100%;
+    width: 300px;
+}
+
+/* Portfolio screenshots */
+.fw-image-upload__portfolio-screenshot-image-wrapper {
+    margin-bottom: 2em;
+}
+.fw-image-upload__portfolio-screenshot-image-container img {
+    max-width: 100%;
+    width: 200px;
+}
+
+/*************************************
+ * Edit Portfolio Page: Portfolio Details meta box.
+ *************************************/
+#fw-portfolio-details textarea {
+    height: 56px;
+}
+#fw-portfolio-details input[type="button"] {
+    margin: 5px 2px 0;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields {
+    padding: 5px 0 0;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields th,
+#fw-portfolio-details .fw-portfolio-document-meta-fields td {
+    padding: 0 15px 0 0;
+    vertical-align: top;
+    width: 40%;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields th {
+    padding-bottom: 5px;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields td:last-child {
+    width: 20%;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields input[type="text"] {
+    width: 100%;
+}
+#fw-portfolio-details .fw-portfolio-document-meta-fields p.description {
+    margin: 5px 0 10px;
+}
+
+/*************************************
+ * Taxonomy Page(s)
+ *************************************/
+/* Hide the 'Parent' form field. We don't want our taxonomies to
+   have sub-taxonomies. */
+.post-type-portfolio .form-field.term-parent-wrap {
+    display: none;
+}
+/* Images for the 'Add New Speaker' page and any other taxonomy pages
+   that desires to load/view an image. */
+.post-type-portfolio .form-field .fw-portfolio-image-upload-wrapper {
+    margin: 1em 0;
+}
+.post-type-portfolio .form-field .fw-portfolio-image-upload-wrapper img {
+    max-width: 100%;
+}
+
+/*************************************
+ * Portfolio's Listing Page
+ *************************************/
+/* The portfolio images in the Portfolio table should be no larger than this. */
+.post-type-portfolio  .fw-portfolio-featured-thumbnail {
+    max-width: 75px;
+    height: auto;
+}
+
+/* General Admin messages. We rolled our own because the WP version float to the top
+   of the page. These don't. */
+.fw-portfolio-notice {
+    margin: 15px 0;
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+}
+.fw-portfolio-notice p {
+    margin: .5em 0;
+    padding: 2px;
+}
+.fw-portfolio-notice.fw-portfolio-notice-success {
+    border-left-color: #46b450;
+}
+.fw-portfolio-notice.fw-portfolio-notice-warning {
+    border-left-color: #ffb900;
+}
+.fw-portfolio-notice.fw-portfolio-notice-error {
+    border-left-color: #dc3232;
+}
+]
+/* Too much vertical padding above submit button. */
+.fw-portfolio-cleanup .fw-portfolio-cleanup-portfolio-form p.submit {
+    padding: 0;
+}
+
